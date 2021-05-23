@@ -1,8 +1,8 @@
 # Test project for ICO
 
 # For Vezdekod
-Token (ERC-20 based) address in Ropsten: 0xc2c7f01C39B650daCeb1c4DCc91e43c4BA13C406 
-ICO (ERC-20 based) address in Ropsten: 0x4C4cc9F8C5BC6186379Ac0450e651e978447e01D
+- Token (ERC-20 based) address in Ropsten: 0xc2c7f01C39B650daCeb1c4DCc91e43c4BA13C406 
+- ICO contract address in Ropsten: 0x4C4cc9F8C5BC6186379Ac0450e651e978447e01D
 
 
 # 1) Run test blockchain Ganache
