@@ -56,7 +56,7 @@ contract TokenCrowdSale {
     _closingTime = closingTime_;
   }
   
-  /// @notice Получить нижнюю границу для успешного ICO
+  /// @notice Получить нижний границу для успешного ICO
   function softCap() public view returns(uint256) {
       return _softCap;
   }
