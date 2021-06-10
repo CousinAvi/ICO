@@ -126,7 +126,7 @@ contract Token is Pausable{
     
     /// @notice Разрешить все операции с токеном
     function unpause_token() public whenPaused returns (bool success) {
-        require(tx.origin == owner, "Only owner can unpause token");
+        require(msg.sender == owner || msg.sender == _minter, "Only owner and minter can unpause token");
         _unpause();
         return true;
     }
